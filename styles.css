@@ -1,0 +1,147 @@
+body {
+    background-color: rgba(216, 214, 212, 0.9);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0c5c92f5;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    background-color: #4891d4;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding: 20px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+h2 {
+    color: #4891d4;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+ol {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+h4 {
+    color: #084b13ec;
+    font-size: 20px;
+    text-align: left;
+}
+
+a:hover {
+    background-color: rgb(24, 97, 46);
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: left: padding: 14px 20px;
+    text-decoration: none;
+    border: 1px;
+}
+
+section a {
+    background-color: #4891d4;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border: greenyellow;
+    border-radius: 1px;
+}
+
+.abouts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
+
+.about {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 450px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    object-position: center;
+}
+
+.about img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
